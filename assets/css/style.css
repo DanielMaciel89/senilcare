@@ -143,7 +143,7 @@ section .content p {
 }
 .col-b {
   margin-top: 100px;
-  margin-bottom: 80px;
+  margin-bottom: 100px;
   text-align: center;
 }
 
@@ -157,11 +157,11 @@ section .content p {
 
 .container {
   background-color: var(--brand);
+
   width: 100%;
 
-  margin-top: -100px;
   padding-block: 4rem;
-
+  margin-top: -10.2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -177,9 +177,9 @@ section .content p {
 #home img {
   width: 26.4rem;
   display: block;
-  margin-bottom: 90px;
   margin-inline: auto;
   object-fit: 0 2rem;
+  margin-top: -6rem;
   /*alinhamento da imagem com eixo y e x*/
 }
 
@@ -511,7 +511,7 @@ body.menu-expanded #navigation .logo path,
 
 /*Resposividade*/
 @media (min-width: 1024px) {
-  bofy {
+  body {
     overflow: auto;
   }
 
@@ -521,7 +521,7 @@ body.menu-expanded #navigation .logo path,
     display: grid;
   }
 
-  .s {
+  .col-a {
     grid-area: A;
   }
 
@@ -689,6 +689,23 @@ body.menu-expanded #navigation .logo path,
     gap: 0;
   }
 
+  .container {
+    background-color: var(--brand);
+    width: 100%;
+    margin-top: 5rem;
+    padding-block: 4rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 6rem;
+
+    margin-inline: auto;
+
+    border: 1px solid var(--green-light);
+    border-radius: 0.6rem;
+  }
+
   #home .container .item + .item {
     border-left: 1px solid var(--primary-color);
   }
@@ -703,6 +720,7 @@ body.menu-expanded #navigation .logo path,
 
   #home img {
     width: 42rem;
+    margin-top: 0;
   }
 
   /*Services*/
