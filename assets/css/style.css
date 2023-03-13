@@ -143,7 +143,7 @@ section .content p {
 }
 .col-b {
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 80px;
   text-align: center;
 }
 
@@ -158,6 +158,8 @@ section .content p {
 .container {
   background-color: var(--brand);
   width: 100%;
+
+  margin-top: -100px;
   padding-block: 4rem;
 
   display: flex;
@@ -175,6 +177,7 @@ section .content p {
 #home img {
   width: 26.4rem;
   display: block;
+  margin-bottom: 90px;
   margin-inline: auto;
   object-fit: 0 2rem;
   /*alinhamento da imagem com eixo y e x*/
