@@ -380,7 +380,7 @@ body.menu-expanded .logo button path {
 
 #depoimentos .cards {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 3.2rem;
 }
 
@@ -765,6 +765,23 @@ body.menu-expanded #navigation .logo path,
     width: 30%;
     flex-grow: 1;
   }
+
+    /*Depoimentos*/
+    #depoimentos h2 {
+        width: 47rem;
+        margin-inline: auto;
+    }
+
+    #depoimentos .cards {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 4rem;
+    }
+
+    #depoimentos .card {
+        width: 30%;
+        flex-grow: 1;
+    }
 
   /*About*/
   #about .wrapper {
