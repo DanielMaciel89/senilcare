@@ -349,7 +349,7 @@ body.menu-expanded .logo button path {
 
 /*Services*/
 
-#services header h2 {
+#services  header h2 {
   margin-bottom: 6rem;
 }
 
@@ -371,6 +371,32 @@ body.menu-expanded .logo button path {
 #services .card h3 {
   margin-block: 1.6rem;
 }
+
+/*depoimentos*/
+
+#depoimentos  header h2 {
+  margin-bottom: 6rem;
+}
+
+#depoimentos .cards {
+  display: flex;
+  flex-direction: row;
+  gap: 3.2rem;
+}
+
+#depoimentos .card {
+  padding: 2.4rem;
+  text-align: left;
+
+  background: #ffffff;
+  border: 1px solid var(--green-light);
+  border-radius: 0.6rem;
+}
+
+#depoimentos .card h3 {
+  margin-block: 1.6rem;
+}
+
 
 /*custom Colors*/
 #services .card circle {
